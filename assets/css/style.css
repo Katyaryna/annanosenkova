@@ -1,0 +1,304 @@
+body {
+    margin: 0;
+    /*font-family: 'Caveat', cursive;*/
+
+    font-family: 'Comfortaa', cursive;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #000;
+    background-color: rgb(199, 197, 197);
+}  
+
+* {
+    margin:0;
+    padding:0;
+ }
+
+ a{
+     text-decoration: none;
+     color:white;
+ }
+
+ h1{
+     font-weight:900;
+     text-transform: uppercase;
+     padding:1% 0;
+     letter-spacing: 5px;
+     color:#fff;
+ }
+
+ h2{
+    font-family: 'Marck Script', cursive;
+    font-weight:400; 
+    font-size:20px;
+    letter-spacing: 5px;
+    margin-bottom:5%;
+ }
+
+ h2::before{
+    display:block;
+    content:"";
+    width:100px;
+    height:5px;
+    margin:20px auto 20px;
+    background-color:#ffffff;
+   }
+
+
+ .container{
+     display: flex;
+     flex-direction: column;
+     align-items:center;
+     justify-content:space-between;
+     margin:0 auto;
+ }
+
+
+
+
+ .intro_inner{
+     padding:2%;
+     background-color:rgba(145, 142, 138, 0.404);
+ }
+
+ .intro_title{
+     color:white;
+ }
+
+
+
+
+
+
+
+
+ /*Section 1*/
+ .section_1{
+     display:flex;
+     flex-direction:column;
+     justify-content: space-between;
+     align-items: center;
+     margin-top:5%;
+ }
+ .section_1::before{
+    display:block;
+    content:"";
+    width:800px;
+    height:2px;
+    background-color:black;
+}
+
+.section11{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+   background:url(../img/phon.jpg)
+   no-repeat
+   center;
+   width:100%;
+   height:100vh;
+}
+.section_1_row{
+    display:flex;
+    justify-content: center;
+    align-content:center;
+    align-items: center;
+   width:100%;
+   height:100vh;
+}
+
+.phon1{
+    width:30%;
+    padding:3%;
+    background-color: #fff;
+    z-index:1;
+}
+.phon2{
+    margin:0 5%;
+    width:30%;
+    z-index:1;
+}
+
+.phon2 img{
+    width:100%;
+}
+.phon3{
+    width:30%;
+    position:relative;
+    margin-left:-30%;
+    margin-top:-6%;
+}
+.phon3 img{
+    width:100%;
+}
+
+
+
+
+ .column_6{
+     display:flex;
+     flex-direction:column;
+     justify-content: space-between;
+     align-content: center;
+     padding:2% 5%;
+     margin-top:7%;
+ }
+
+ .row_3{
+     display:flex;
+     justify-content: space-around;
+ }
+
+ .row_text{
+    font-family: 'Marck Script', cursive;
+    font-weight:400; 
+    font-size:20px;
+    width:25%;
+    text-align: center;
+    background-color:rgba(15, 124, 61, 0.705);
+    position:relative;
+    z-index: 1;
+    margin-bottom:-3%;
+ }
+ .section_1_text{
+     font-family: 'Marck Script', cursive;
+     font-size: 24px;
+     padding:5% 9%;
+ }
+
+ .hover-image-8{
+     width:30%;
+ }
+ .hover-image-8 a {
+    display: inline-block;
+    background: #a0a0a0;
+    line-height: 0;
+  }
+  .hover-image-8 a img {
+    transition: filter 0.5s linear;
+    filter: brightness(1) grayscale(1) opacity(0.5);
+  }
+  .hover-image-8 a:hover img {
+    filter: none;
+  }
+
+
+  .sec1_a{
+      width:100%;
+  }
+
+.sec1_img{
+    width:100%;
+}
+  .sec1_img img{
+    width:100%;
+    height:100%;
+}
+
+
+
+
+
+
+
+  /*Section 2*/
+  .section_2{
+    margin-top:15%;
+    margin-bottom:15%;
+    padding:10%;
+    display:flex;
+    flex-direction: column;
+    align-content:center;
+    justify-content: center;
+    background: url(../img/phon123.jpg)
+    no-repeat
+    center;
+}
+
+.quote{
+    background-color:rgba(128, 128, 128, 0.541);
+    display:flex;
+    align-content:center;
+    align-items: center;
+    justify-content: center;
+    padding:5%;
+    margin:5%;
+}
+
+.quote::before{
+    margin:0 auto;
+    display:block;
+    content:"";
+    width:1000px;
+    height:2px;
+    background-color:black;
+ }
+ .quote::after{
+    margin:0 auto;
+    display:block;
+    content:"";
+    width:1000px;
+    height:2px;
+    background-color:black;
+ }
+
+.quote_img{
+    width:20%;
+}
+
+.quote_img img{
+    width:100%;
+}
+
+/*section 3*/
+.phon11{
+    background-color:rgba(26, 100, 42, 0.616);
+    color:white;
+    font-size:16px;
+    padding:4%;
+    margin-right:10%;
+    width:50%;
+}
+.phon22{
+    width:40%;
+    position:relative;
+    margin-right:-7%;
+}
+.phon22 img{
+    width:100%;
+}
+.phon33{
+    width:30%;
+    margin:2%;
+    z-index:1;
+}
+.phon33 img{
+    border: 7px solid #fff;
+    display: inline-block;
+    width:100%;
+}
+
+
+
+
+
+
+
+/*Footer*/
+footer{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    background-color: #0f5521;
+    width:100%;
+    margin-top:10%;
+}
+.footer_text{
+    text-align: center;
+    font-size:25px;
+    font-family: 'Marck Script', cursive;
+    color:white;
+}
+
+
